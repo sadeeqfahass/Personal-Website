@@ -6,20 +6,55 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
 }
 
 body {
   background: url(background.svg);
   background-size: 2000px 1000px;
   background-position: -500px 0;
+  background-repeat: no-repeat;
   animation: background 10s infinite alternate-reverse linear;
   font-family: 'Montserrat', sans-serif;
+  height: 300vh;
 }
 
 @keyframes background {
   to {
     background-size: 4000px 1000px;
   }
+}
+
+/* Utility Classes */
+.title-con {
+  display: flex;
+  padding: 3.5rem 5.5rem;
+}
+
+
+.section-title {
+  position: relative;
+  padding-bottom: .3rem;
+  display: inline-block;
+  cursor: pointer;
+  justify-self: start;
+}
+
+.section-title:after {
+  content: "";
+  width: 30%;
+  height: .2rem;
+  background: #19376D;
+  border-radius: 2rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all .5s;
+}
+
+.section-title:hover:after {
+  width: 100%;
 }
 
 /* Navigation Bar */
@@ -30,16 +65,16 @@ body {
   justify-content: space-between;
   align-items: center;
   box-shadow: 3px 1.5px 5px rgba(0, 0, 0, .2);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 5;
 }
 
 .nav .logo h1{
   font-weight: bold;
   cursor: pointer;
-}
-
-.nav i {
-  display: none;
-  font-size: 1.5rem;
 }
 
 .nav .nav-items ul {
@@ -58,6 +93,11 @@ body {
 .nav .nav-items ul a {
   text-decoration: none;
   color: #161616;
+}
+
+.nav .menu-icon {
+  display: none;
+  font-size: 2rem;
 }
 
 .nav .side-nav {
@@ -87,12 +127,15 @@ body {
   color: #161616;
 }
 
+/* Hero Section */
+
 .header {
-  height: 90vh;
-  padding: 0 5rem;
+  padding: 11.5rem 5.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background: darkcyan; */
+  margin-top: 3rem;
 }
 
 .header .left .title {
@@ -114,16 +157,51 @@ body {
   background: #19376D;
 }
 
+/* About Section */
+
+.about {
+  padding: .2rem 5.5rem;
+  /* background: darkgreen; */
+}
+
 @media screen and (max-width:500px) {
   .nav .nav-items ul {
     display: none;
   }
 
-  .nav i {
+  .nav .menu-icon {
     display: block;
   }
 
   .nav .side-nav {
     display: block;
   }
+
+  .header {
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+  }
+
+  .header .left {
+    order: 1;
+    text-align: center;
+  }
+
+  .header .left .desc {
+    width: 100%;
+  }
+
+  .header .right {
+    margin-bottom: 2rem;
+  }
 }
+
+@media screen and (max-width:760px) {
+  .nav .nav-items ul li{
+    margin-right: 1rem;
+  }
+
+  .header {
+    padding: 7rem .5rem;
+  }
+} 
