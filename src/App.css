@@ -254,7 +254,12 @@ body {
 
 .project-card {
   box-shadow: 3px 3px 3px rgba(0, 0, 0, .1);
-  /* width: 20%; */
+  transform: scale(.9);
+  transition: all .5s;
+}
+
+.project-card:hover {
+  transform: scale(.97);
 }
 
 .project-card .top img{
@@ -264,6 +269,15 @@ body {
 .project-card .bottom {
   padding: 2rem .5rem;
   text-align: center;
+}
+
+.project-card .bottom .desc {
+  margin: .2rem auto 0;
+  width: 100%;
+}
+
+.project-card .bottom .desc p {
+  opacity: .5;
 }
 
 .project-card .bottom .icons {
@@ -283,6 +297,18 @@ body {
 
 .project-card .bottom .icons i:hover {
   transform: scale(1.2);
+}
+
+.project-card .bottom .tech {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  margin-top: 1rem;
+}
+
+.project-card .bottom .tech p {
+  opacity: .5;
 }
 
 @media screen and (max-width:500px) {
