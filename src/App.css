@@ -311,7 +311,7 @@ body {
   opacity: .5;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:560px) {
   .nav .nav-items ul {
     display: none;
   }
