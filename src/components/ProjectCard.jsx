@@ -4,7 +4,7 @@ function ProjectCard(props) {
   return (
     <div className="project-card">
       <div className="top">
-        <img src="https://picsum.photos/id/237/350/200" alt="" />
+        <img src={props.img} alt="" />
       </div>
       <div className="bottom">
         <h2 className="title">{props.title}</h2>
@@ -14,8 +14,8 @@ function ProjectCard(props) {
           </p>
         </div>
         <div className="icons">
-          <i class="fa-solid fa-arrow-up-right-from-square"></i>
-          <i class="fa-brands fa-github"></i>
+          <i className="fa-solid fa-arrow-up-right-from-square"></i>
+          <i className="fa-brands fa-github"></i>
         </div>
         <div className="tech">
           <p>{props.tech1}</p>
