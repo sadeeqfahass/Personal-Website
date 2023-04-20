@@ -14,13 +14,18 @@ function ProjectCard(props) {
           </p>
         </div>
         <div className="icons">
-          <i className="fa-solid fa-arrow-up-right-from-square"></i>
-          <i className="fa-brands fa-github"></i>
+          <a href={props.preview} target="_blank">
+            <i className="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+          <a href={props.github} target="_blank">
+            <i className="fa-brands fa-github"></i>
+          </a>
         </div>
         <div className="tech">
           <p>{props.tech1}</p>
           <p>{props.tech2}</p>
           <p>{props.tech3}</p>
+          <p>{props.tech4}</p>
         </div>
       </div>
     </div>
