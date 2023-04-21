@@ -41,8 +41,12 @@ function Nav() {
           </li>
         </ul>
       </div>
-           
-      {isOpen ? <CloseIcon className="close-icon"onClick={closeMenu}/> : <MenuIcon className="menu-icon" onClick={openMenu} />}
+
+      {isOpen ? (
+        <CloseIcon className="close-icon" onClick={closeMenu} />
+      ) : (
+        <MenuIcon className="menu-icon" onClick={openMenu} />
+      )}
 
       <div className={isOpen ? "show" : "side-nav"}>
         <div className="items">
@@ -63,9 +67,6 @@ function Nav() {
               <a href="#contact">Contact</a>
             </li>
           </ul>
-        </div>
-        <div className="btn">
-          <button>Download Resume</button>
         </div>
       </div>
     </div>

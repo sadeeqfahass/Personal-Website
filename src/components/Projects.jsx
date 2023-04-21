@@ -22,8 +22,9 @@ function Projects() {
         <ProjectCard 
             img="furniture-company.png"
             title = "Landing Page"
-            description1 = "A clone of the official youtube web "
-            description2 = "app, using the youtube API"
+            description1 = "A landing page for a furniture "
+            description2 = "company, UI design by steven"
+            description3 = "umeh (ui.steve) on instagram"
             preview="https://sadeeqfahass.github.io/Fictional-Furniture-Company/"
             github="https://github.com/sadeeqfahass/Fictional-Furniture-Company"
             tech1 = "HTML"

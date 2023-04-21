@@ -118,7 +118,7 @@ body {
 
 .show {
   transform: translateX(0);
-  background: rgba(25, 54, 109, .95);
+  background:linear-gradient(90deg, rgba(25, 55, 109, .9) , rgba(25, 55, 109, .95)) ;
   position: absolute;
   top: 0;
   right: 0;
@@ -133,7 +133,7 @@ body {
 }
 
 .nav .side-nav {
-  background: rgba(25, 54, 109, .95);
+  background:linear-gradient(90deg, rgba(25, 55, 109, .9) , rgba(25, 55, 109, .95)) ;
   position: absolute;
   top: 0;
   right: 0;
@@ -146,10 +146,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.nav .side-nav .items {
-  /* background: darkcyan; */
 }
 
 .nav .side-nav .items ul,
@@ -188,7 +184,7 @@ body {
 }
 
 .header .left .title span {
-  background: linear-gradient(90deg, #3776eb, #19376D);
+  background: linear-gradient(90deg, #3776eb, #19376d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -240,6 +236,26 @@ body {
 .about .about-content p {
   font-size: 1.2rem;
   line-height: 1.5;
+}
+
+.about .btn {
+  margin-top: 1.5rem;
+}
+
+.about .btn a {
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(90deg, #19376d, #3776eb);
+  padding: .5rem 1rem;
+  border-radius: 3px;
+}
+
+.about .btn:active {
+  transform: translateY(2px);
+}
+
+.about .btn a:hover {
+  color: #b2b2b2;
 }
 
 /* Skills Section */

@@ -10,7 +10,7 @@ function ProjectCard(props) {
         <h2 className="title">{props.title}</h2>
         <div className="desc">
           <p className="">
-            {props.description1} <br /> {props.description2}
+            {props.description1} <br /> {props.description2} <br /> {props.description3}
           </p>
         </div>
         <div className="icons">
