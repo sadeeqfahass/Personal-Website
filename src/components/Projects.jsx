@@ -33,8 +33,8 @@ function Projects() {
         <ProjectCard 
             img="weather-app.png"
             title = "Weather App"
-            description1 = "A clone of the official youtube web "
-            description2 = "app, using the youtube API"
+            description1 = "A weather app built with JS "
+            description2 = "using the open weather map API"
             preview="https://sadeeqfahass.github.io/Weather-App/"
             github="https://github.com/sadeeqfahass/Weather-App"
             tech1 = "HTML"
