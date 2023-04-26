@@ -9,7 +9,7 @@ function Header() {
         <p className="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, exercitationem?</p>
       </div>
       <div className="right">
-        <img src="User.png" alt="" />
+        <img src="Image.png" alt="" />
       </div>
     </div>
   )

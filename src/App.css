@@ -201,6 +201,10 @@ body {
 }
 
 .header .right img {
+  width: 250px;
+  height: 250px;
+  rotate: 5deg;
+  object-fit: contain;
   border-radius: 50%;
   background: linear-gradient(90deg, #19376D , #3776eb);
   outline: #000 3px solid;
