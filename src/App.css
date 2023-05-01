@@ -391,10 +391,6 @@ body {
     display: block;
   }
 
-  .nav .side-nav {
-    /* display: none; */
-  }
-
   .header {
     flex-direction: column;
     padding: 2rem 1.5rem;
@@ -420,7 +416,7 @@ body {
 
   .about .about-content {
     width: 100%;
-    /* text-align: center; */
+    text-align: left;
   }
 }
 
