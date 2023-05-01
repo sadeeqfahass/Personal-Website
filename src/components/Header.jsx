@@ -6,7 +6,7 @@ function Header() {
       <div className="left">
         <h1 className='title'>Hi, I'm <span>Sadeeq</span></h1>
         <p className="sub-title">A Frontend Developer</p>
-        <p className="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, exercitationem?</p>
+        <p className="desc">A Computer Information System graduate with passion for technology and innovation. </p>
       </div>
       <div className="right">
         <img src="Image.png" alt="" />

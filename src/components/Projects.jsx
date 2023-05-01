@@ -9,19 +9,19 @@ function Projects() {
       </div>
       <div className="projects-container">
         <ProjectCard 
-            img="furniture-company.png"
-            title = "Youtube Clone"
-            description1 = "A clone of the official youtube web "
-            description2 = "app, using the youtube API"
-            preview="https://sadeeqfahass.github.io/Fictional-Furniture-Company/"
-            github="https://github.com/sadeeqfahass/Fictional-Furniture-Company"
-            tech1 = "React"
+            img="law-advocates.png"
+            title = "Law Advocates"
+            description1 = "A simple landing page for "
+            description2 = "a law firm"
+            preview="https://sadeeqfahass.github.io/Law-Advocates/"
+            github="https://github.com/sadeeqfahass/Law-Advocates"
+            tech1 = "HTML"
             tech2 = "CSS"
             tech3 = ""
         />
         <ProjectCard 
             img="furniture-company.png"
-            title = "Landing Page"
+            title = "Furniture Company"
             description1 = "A landing page for a furniture "
             description2 = "company, UI design by steven"
             description3 = "umeh (ui.steve) on instagram"
@@ -44,17 +44,17 @@ function Projects() {
             tech4 = "API"
         />
         <ProjectCard 
-            img="furniture-company.png"
-            title = "E-Commerce Website"
-            description1 = "A clone of the official youtube web "
-            description2 = "app, using the youtube API"
+            img="notes-app.png"
+            title = "Notes App"
+            description1 = "A notes taking app built"
+            description2 = "with react js"
             preview="https://sadeeqfahass.github.io/Fictional-Furniture-Company/"
             github="https://github.com/sadeeqfahass/Fictional-Furniture-Company"
             tech1 = "React"
             tech2 = "CSS"
             tech3 = ""
         />
-        <ProjectCard 
+        {/* <ProjectCard 
             img="furniture-company.png"
             title = "Notes App"
             description1 = "A clone of the official youtube web "
@@ -75,7 +75,7 @@ function Projects() {
             tech1 = "React"
             tech2 = "CSS"
             tech3 = ""
-        />
+        /> */}
       </div>
     </div>
   );
