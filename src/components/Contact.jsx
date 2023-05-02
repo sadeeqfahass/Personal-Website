@@ -20,9 +20,9 @@ function Contact() {
           <a href="tel:+2348066792454">+234 8066 792 454</a>
         </div>
         <div className="social">
-            <a href="https://github.com/sadeeqfahass"><i className="fa-brands fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/abubakar-farouq-b24b2b259/"><i className="fa-brands fa-linkedin"></i></a>
-            <a href="https://twitter.com/sadeeq_farouq"><i className="fa-brands fa-twitter"></i></a>
+            <a href="https://github.com/sadeeqfahass" target="_blank"><i className="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/abubakar-farouq-b24b2b259/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/sadeeq_farouq" target="_blank"><i className="fa-brands fa-twitter"></i></a>
         </div>
       </div>
     </div>
