@@ -48,7 +48,7 @@ function Projects() {
             title = "Notes App"
             description1 = "A notes taking app built"
             description2 = "with react js"
-            preview="https://sadeeqfahass.github.io/Notes-App/"
+            preview="https://sadeeq-note-app.netlify.app/"
             github="https://github.com/sadeeqfahass/Notes-App"
             tech1 = "React"
             tech2 = "CSS"
