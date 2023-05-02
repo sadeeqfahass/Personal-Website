@@ -229,7 +229,6 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* background: darkgreen; */
 }
 
 .about .about-content {
@@ -270,7 +269,6 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* background: bisque; */
 }
 
 .skills-container {
@@ -283,7 +281,6 @@ body {
 
 .skills-card {
   padding: 2rem 1.5rem;
-  /* background: #19376D;  */
   border-radius: 1rem;
   box-sizing: border-box;
   display: flex;
@@ -305,12 +302,11 @@ body {
 /* Projects Section */
 
 .projects {
-  padding: 5rem 3rem 12rem;
+  padding: 5rem 3rem 7rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* background: bisque; */
 }
 
 .projects-container {
@@ -382,6 +378,54 @@ body {
   opacity: .5;
 }
 
+/* Contact Section */
+
+.contact {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-container {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, .1), -2px -2px 3px rgba(0, 0, 0, .1);
+  padding: 3rem 7rem;
+  margin-top: 2rem;
+}
+
+.contact-container .mail,
+.contact-container .phone {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-container .mail i,
+.contact-container .phone i {
+  font-size: 1rem;
+  color: #19376D;
+}
+
+.contact-container .mail a,
+.contact-container .phone a {
+  text-decoration: none;
+  color: #777;
+}
+
+.contact-container .social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.contact-container .social a {
+  color: #19376D;
+}
+
+
 @media screen and (max-width:560px) {
   .nav .nav-items ul {
     display: none;
@@ -417,6 +461,10 @@ body {
   .about .about-content {
     width: 100%;
     text-align: left;
+  }
+
+  .contact-container {
+    padding: 3rem 2rem;
   }
 }
 

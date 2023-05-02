@@ -54,7 +54,7 @@ function Projects() {
             tech2 = "CSS"
             tech3 = ""
         />
-        {/* <ProjectCard 
+        <ProjectCard 
             img="furniture-company.png"
             title = "Notes App"
             description1 = "A clone of the official youtube web "
@@ -75,7 +75,7 @@ function Projects() {
             tech1 = "React"
             tech2 = "CSS"
             tech3 = ""
-        /> */}
+        />
       </div>
     </div>
   );
