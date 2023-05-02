@@ -7,6 +7,10 @@ function Contact() {
         <h1 className="section-title">Get In Touch</h1>
       </div>
       <div className="contact-container">
+        <div className="address">
+          <i className="fa-solid fa-location-dot"></i>
+          <p>Kano State, Nigeria</p>
+        </div>
         <div className="mail">
           <i className="fa-solid fa-envelope"></i>
           <a href="mailto:sadeeqfhassan@gmail.com">sadeeqfhassan@gmail.com</a>

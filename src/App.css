@@ -394,6 +394,11 @@ body {
   margin-top: 2rem;
 }
 
+.contact-container i {
+  color: #19376D;
+}
+
+.contact-container .address,
 .contact-container .mail,
 .contact-container .phone {
   display: flex;
@@ -402,12 +407,8 @@ body {
   margin-bottom: 1rem;
 }
 
-.contact-container .mail i,
-.contact-container .phone i {
-  font-size: 1rem;
-  color: #19376D;
-}
 
+.contact-container .address,
 .contact-container .mail a,
 .contact-container .phone a {
   text-decoration: none;
@@ -419,10 +420,6 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-top: 2rem;
-}
-
-.contact-container .social a {
-  color: #19376D;
 }
 
 
