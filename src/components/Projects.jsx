@@ -9,7 +9,7 @@ function Projects() {
       </div>
       <div className="projects-container">
         <ProjectCard 
-            img="law-advocates2.png"
+            img="law-advocates.png"
             title = "Law Advocates"
             description1 = "A simple landing page for "
             description2 = "a law firm"
