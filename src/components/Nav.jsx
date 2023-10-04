@@ -3,6 +3,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import { useState } from "react";
 
 function Nav() {
+
   const [isOpen, setIsOpen] = useState(false);
 
   function openMenu() {
@@ -15,6 +16,12 @@ function Nav() {
 
   function handleClick() {
     setIsOpen(false);
+  }
+
+  if(isOpen) {
+    window.onscroll = () => {
+      setIsOpen( () => false);
+    }
   }
 
   return (
