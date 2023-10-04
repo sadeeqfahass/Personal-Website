@@ -54,28 +54,6 @@ function Projects() {
             tech2 = "CSS"
             tech3 = ""
         />
-        {/* <ProjectCard 
-            img="furniture-company.png"
-            title = "Notes App"
-            description1 = "A clone of the official youtube web "
-            description2 = "app, using the youtube API"
-            preview="https://sadeeqfahass.github.io/Fictional-Furniture-Company/"
-            github="https://github.com/sadeeqfahass/Fictional-Furniture-Company"
-            tech1 = "React"
-            tech2 = "CSS"
-            tech3 = ""
-        />
-        <ProjectCard 
-            img="furniture-company.png"
-            title = "Movie App"
-            description1 = "A clone of the official youtube web "
-            description2 = "app, using the youtube API"
-            preview="https://sadeeqfahass.github.io/Fictional-Furniture-Company/"
-            github="https://github.com/sadeeqfahass/Fictional-Furniture-Company"
-            tech1 = "React"
-            tech2 = "CSS"
-            tech3 = ""
-        /> */}
       </div>
     </div>
   );

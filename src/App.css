@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 
-/* #19376D */
 
 *{
   padding: 0;
@@ -11,7 +10,7 @@
 }
 
 body {
-  background: url(background.svg);
+  background: url(../public/background.svg);
   background-size: 2000px 100vh;
   background-position: -400px 0;
   background-repeat: no-repeat;
@@ -146,6 +145,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  pointer-events: none;
 }
 
 .nav .side-nav .items ul,
@@ -209,17 +209,17 @@ body {
   background: linear-gradient(90deg, #19376D , #3776eb);
   outline: #000 3px solid;
   outline-offset: 5px;
-  animation: out 2s linear infinite alternate-reverse;
+  /* animation: out 2s linear infinite alternate-reverse; */
 }
 
-@keyframes out{
+/* @keyframes out{
   from {
     outline-offset: 1px;
   }
   to {
     outline-offset: 10px;
   }
-}
+} */
 
 /* About Section */
 
@@ -289,6 +289,7 @@ body {
   justify-content: center;
   align-items: center;
   transition: all .5s;
+  flex-grow: 1;
 }
 
 .skills-card:hover {
@@ -457,7 +458,7 @@ body {
 
   .about .about-content {
     width: 100%;
-    text-align: left;
+    text-align: center;
   }
 
   .contact-container {
