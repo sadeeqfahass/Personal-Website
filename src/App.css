@@ -15,7 +15,7 @@ body {
   background-position: -400px 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  animation: background 10s infinite alternate-reverse linear;
+  animation: background 5s infinite alternate-reverse linear;
   font-family: 'Montserrat', sans-serif;
 }
 
