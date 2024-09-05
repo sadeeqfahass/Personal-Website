@@ -10,14 +10,14 @@ function Projects() {
       <div className="projects-container">
         <ProjectCard 
             img="law-advocates.png"
-            title = "Law Advocates"
+            title = "Umma Educational Services"
             description1 = "A simple landing page for "
-            description2 = "a law firm"
+            description2 = "an organization"
             preview="https://sadeeqfahass.github.io/Law-Advocates/"
             github="https://github.com/sadeeqfahass/Law-Advocates"
             tech1 = "HTML"
             tech2 = "CSS"
-            tech3 = ""
+            tech3 = "JS"
         />
         <ProjectCard 
             img="furniture-company.png"
